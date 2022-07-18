@@ -11,6 +11,11 @@ public class Demo1 {
 		System.out.println("Static methods access directly In Non static method");
 		System.out.println(i);
 		System.out.println(name);
+		
+		System.out.println("Static methods access using class name In Non static method");
+		System.out.println(Demo1.i);
+		System.out.println(Demo1.name);
+		
 	}
 	
 	public static void main(String[] args) {
